@@ -8,8 +8,12 @@ class Ingredient():
         self.additional_info = kwargs
 
     def get(self):
-        return self.material, self.amount, self.amount_type, self.description, self.additional_info
-
+        ingredient_dict = {'material': self.material, 'amount': self.amount,
+                           'amount_type': self.amount_type,
+                           'description': self.description,
+                           'additional_info': self.additional_info}
+        return ingredient_dict
+        
     def get_amount(self):
         return self.amount, self.amount_type
 

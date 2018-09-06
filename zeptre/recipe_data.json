@@ -1,0 +1,23 @@
+{
+    "description": "",
+    "directions": "",
+    "ingredients": [
+        {
+            "additional_info": {
+                "beware": "only best flour possible"
+            },
+            "amount": 1.0,
+            "amount_type": "kg",
+            "description": "",
+            "material": "Flour"
+        },
+        {
+            "additional_info": {},
+            "amount": 1.0,
+            "amount_type": null,
+            "description": "Youll need them5",
+            "material": "Tomato"
+        }
+    ],
+    "name": "Cookie"
+}
